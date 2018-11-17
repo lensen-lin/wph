@@ -1,0 +1,245 @@
+@import "beas.less";
+/* 头部样式 */
+body {
+    padding-top: 80px;
+    padding-bottom: 0px;
+}
+#header {
+    background-color: #fafafa;
+    // display: flex;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    .head {
+        // flex: 1;
+        display: flex;
+        // background-color: #f9f9fa;
+        a {
+            display: block;
+            width: 42px;
+            height: 42px;
+            text-align: center;
+            line-height: 42px;
+
+
+            &.login {
+
+                color: #e8e8e9;
+                font-size: 12px;
+            }
+        }
+        form {
+            flex: 1;
+            margin-top: 7px;
+            input {
+
+                background-color: #f3f4f5;
+                border: 1px solid #e3e3e3;
+                width: 272px;
+                height: 28px;;
+                border-radius: 15px;
+                color: #98989f;
+                padding-left: 10px;
+
+            }
+        }
+        .category {
+            >i {
+                font-size: 18px;
+            }
+        }
+    }
+
+    .head-nav {
+
+        height: 37px;
+
+        ul {
+
+            
+
+            li {
+
+                float: left;
+                &:first-of-type {
+                    border-bottom: 3px solid #d34ba8;
+                    margin-left: 7px;
+                   
+                    >a {
+                        color: #d34ba8;
+                    }
+                }
+                margin-right: 14px;
+                a {
+
+                    display: block;
+                    text-align: center;
+                    width: 100%;
+                    line-height: 35px;
+                    font-size: 13px;
+                }
+
+                
+            }
+
+        }
+    }
+}
+
+/* 导航栏样式区域 */
+
+#nav {
+
+    ul {
+
+        display: flex;
+        flex-wrap: wrap;
+
+        li {
+
+           width: 20%;
+
+        }
+    }
+}
+
+/* 商品样式区域 */
+
+#main {
+
+    .nike-goods {
+
+        display: flex;
+
+        a {
+
+            flex: 1;
+
+        }
+
+    }
+
+    .hint {
+
+        display: flex;
+
+        a {
+            flex: 1;
+        }
+
+    }
+
+    .hint2 {
+
+        display: flex;
+
+        a {
+
+            flex: 1;
+            
+        }
+
+    }
+
+
+        .sale-title {
+
+            width: 100%;
+            text-align: center;
+            font-size: 16px;
+            padding: 10px 0 4px;
+            // line-height: 16px;
+    }
+
+    .coach{
+
+        width: 100%;
+        padding-top: 10px;
+        background-color: #f3f4f5;
+
+        a {
+
+            display: block;
+            width: 100%;
+            background-color: #fff;
+
+            img {
+
+                width: 100%;
+                
+                &.icon {
+
+                    width: 19px;
+                    height: 19px;
+                    margin-left: 10px;
+                }
+            }
+
+            p {
+
+                font-weight: bold;
+                color: black;
+                font-size: 15px;
+                padding-left: 10px;
+                margin-top: 10px;
+
+                span {
+
+                    font-size: 10px;
+                    color: #98989f;
+                    margin-left: 30px;
+                    font-weight: normal;
+
+                }
+            }
+
+            .discount {
+
+                font-size: 8px;
+                color: #6795ca;
+
+            }
+
+        }
+
+    }
+
+}
+    .car,.return-top {
+
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
+        background-color: black;
+        position: fixed;
+        bottom: 25px;
+
+        a {
+
+            display: block;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            line-height: 45px;
+            i {
+
+                font-size: 25px;
+                color: #fff;
+
+            }
+
+        }
+        
+    }
+    .car {
+
+        left: 15px;
+
+    }
+
+    .return-top {
+
+        right: 15px;
+
+    }
